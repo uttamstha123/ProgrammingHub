@@ -1,0 +1,43 @@
+.info-container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+.main-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main-info .title {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #f0f0f0;
+}
+.main-info .developer {
+  font-size: 2rem;
+  color: #eee;
+}
+.main-info .date {
+  font-size: 1.8rem;
+  color: #eee;
+}
+.description {
+  font-size: 1.35rem;
+  height: 20rem;
+  color: #dedede;
+  word-spacing: 2px;
+  font-family: verdana, sans-serif;
+  overflow-y: auto;
+}
+.description a {
+  color: rgb(255, 239, 146);
+  text-decoration: underline;
+}
