@@ -132,7 +132,10 @@ footer {
   pointer-events: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1100px) {
+  .flex-container {
+    justify-content: center;
+  }
   .flex-container {
     justify-content: center;
   }
@@ -153,9 +156,6 @@ footer {
   .search-container input {
     margin-top: 1rem;
     min-width: 70%;
-  }
-  .flex-container {
-    justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
