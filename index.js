@@ -1,5 +1,4 @@
-const fetchData = fetch("../programminglanguage.json");
-let data = [];
+const fetchData = fetch("./programminglanguage.json");
 fetchData
   .then((result) => {
     let data = result.json();
@@ -8,12 +7,24 @@ fetchData
   .then((results) => {
     results.forEach((result) => {
       // renderCard so only name is required
-      renderResult(result.name);
+      renderResult(result);
     });
   })
   .catch((err) => {
     console.log(err);
   });
+
+// Handling onclick event on card [flex-items]
+
+const cardItems = document.querySelector(".flex-container");
+cardItems.addEventListener("click", (e) => {
+  let item = e.target;
+  if (item.classList.value === "flex-item") {
+    console.log(item);
+    // item.setAttribute('href','./pages/language.html');
+    // renderPage();
+  }
+});
 
 const container = document.querySelector(".flex-container");
 function renderResult(data) {
@@ -24,14 +35,19 @@ function renderResult(data) {
   card.setAttribute("href", "#");
 
   // Child node of flex-item
-  const logo = document.createElement("div");
-  logo.classList.add("logo");
+  const logoContainer = document.createElement("div");
+  logoContainer.classList.add("logo");
 
+  const logo = document.createElement("img");
+  logo.setAttribute("src", `./images/icons/${data.iconUrl}`);
+  console.log(data.iconUrl);
+
+  logoContainer.appendChild(logo);
   const name = document.createElement("h1");
   name.classList.add("name");
-  name.innerText = data;
+  name.innerText = data.name;
 
-  card.appendChild(logo);
+  card.appendChild(logoContainer);
   card.appendChild(name);
 
   container.appendChild(card);
@@ -54,7 +70,7 @@ function filterSearch(result) {
     if (logic) {
       item.removeAttribute("id");
     } else {
-      item.setAttribute('id','filter')
+      item.setAttribute("id", "filter");
     }
   });
 }
