@@ -1,7 +1,8 @@
 const fetchData = fetch("./programminglanguage.json");
+let data;
 fetchData
   .then((result) => {
-    let data = result.json();
+    data = result.json();
     return data;
   })
   .then((results) => {
@@ -17,21 +18,39 @@ fetchData
 // Handling onclick event on card [flex-items]
 
 const cardItems = document.querySelector(".flex-container");
-cardItems.addEventListener("click", (e) => {
-  let item = e.target;
+cardItems.addEventListener("click", (event) => {
+  let item = event.target;
   if (item.classList.value === "flex-item") {
-    console.log(item);
-    // item.setAttribute('href','./pages/language.html');
-    // renderPage();
+    // console.log(item.innerText);
+    item.setAttribute("href", "./pages/language.html");
+    data
+      .then((getData) => {
+        return getData;
+      })
+      .then((myData) => {
+        myData.forEach((data) => {
+          if (data.name === item.innerText) {
+            localStorage.clear();
+            localStorage.setItem("NAME", data.name);
+            localStorage.setItem("DEVELOPER", data.developedBy);
+            localStorage.setItem("FIRSTRELEASE", data.firstAppeared);
+            localStorage.setItem("DESCRIPTION", data.description);
+            localStorage.setItem("DOCUMENTATION", data.documentation);
+          }
+        });
+        // set properties to session storage
+      });
   }
 });
+
+// rendering card
 
 const container = document.querySelector(".flex-container");
 function renderResult(data) {
   // Flex-item
   const card = document.createElement("a");
   card.classList.add("flex-item");
-  // card.setAttribute("target", "_blank");
+  card.setAttribute("target", "_blank");
   card.setAttribute("href", "#");
 
   // Child node of flex-item
@@ -40,13 +59,12 @@ function renderResult(data) {
 
   const logo = document.createElement("img");
   logo.setAttribute("src", `./images/icons/${data.iconUrl}`);
-  console.log(data.iconUrl);
 
-  logoContainer.appendChild(logo);
   const name = document.createElement("h1");
   name.classList.add("name");
   name.innerText = data.name;
 
+  logoContainer.appendChild(logo);
   card.appendChild(logoContainer);
   card.appendChild(name);
 

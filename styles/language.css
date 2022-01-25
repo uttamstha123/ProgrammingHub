@@ -11,6 +11,9 @@ h3,
 h4 {
   font-weight: normal;
 }
+a {
+  text-decoration: none;
+}
 .main-info {
   display: flex;
   flex-direction: column;
@@ -31,13 +34,16 @@ h4 {
 }
 .description {
   font-size: 1.35rem;
-  height: 20rem;
   color: #dedede;
   word-spacing: 2px;
   font-family: verdana, sans-serif;
   overflow-y: auto;
 }
-.description a {
-  color: rgb(255, 239, 146);
-  text-decoration: underline;
+.documentation {
+  font-family: verdana, sans-serif;
+  font-size: 1.5rem;
+  color: #dedede;
+}
+.documentation a{
+  color: #ffe46d;
 }
