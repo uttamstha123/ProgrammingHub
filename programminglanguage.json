@@ -3,97 +3,133 @@
             "developedBy": "Guido van Rossum",
             "description": "Python is one of the most widely used programming languages in the world. This is, in part, thanks to its versatility. Python is considered a multi-paradigm coding language, which means that it allows programmers to take different approaches to achieve their goals, including procedural, functional, and object-oriented programming. One thing that really adds to Python’s popularity is its readability. Python emphasizes intuitive syntax, simplifying the coding process overall. Also, Python has a strong support community so if you ever need tips or solutions, a quick trip to Stack Overflow will usually provide the answer.",
             "firstAppeared": "20 February 1991",
-            "documentation": "https://www.w3schools.com/python/"
+            "documentation": "https://www.w3schools.com/python/",
+            "iconUrl": "icons8-python-100.png"
       },
       {
             "name": "Java",
             "description": "From server-side applications to Android mobile games, Java is a powerful code that any programmer would benefit from learning. Java’s motto is “write once; run anywhere.” What does that mean? It means that Java is a useful option for cross-platform coding. Java is supported by a robust community and set of tools. If you want to focus on design and structure but don’t want to spend as much time on memory management or system details, then Java may be the right language for you.",
             "developedBy": "James Gosling",
             "firstAppeared": "May 23, 1995",
-            "documentation": "https://www.w3schools.com/java/"
+            "documentation": "https://www.w3schools.com/java/",
+            "iconUrl": "icons8-java-100.png"
+
       },
       {
             "name": "Ruby",
             "description": "Ruby is an open-sourced, object-oriented scripting language that can be used independently or as part of the Ruby on Rails web framework.Ruby is used for simulations, 3D modeling, and to manage and track information.",
             "developedBy": "Yukihiro Matsumoto",
             "firstAppeared": "1995",
-            "documentation": "https://www.tutorialspoint.com/ruby/index.htm"
+            "documentation": "https://www.tutorialspoint.com/ruby/index.htm",
+            "iconUrl": "icons8-ruby-programming-language-100.png"
+
       },
       {
             "name": "Javascript",
             "description": "In terms of popularity, you really can’t do better than JavaScript. Outpacing even HTML among professional developers, JavaScript is useful for both frontend and backend development. Additionally, JavaScript is also becoming a go-to language for Internet of Things (IoT) development. Along with HTML and CSS, JavaScript is considered a core technology that powers the World Wide Web. In fact, JavaScript is often used as a client-side scripting language written into an HTML page",
             "developedBy": "Brendan Eich",
             "firstAppeared": "December 4, 1995",
-            "documentation": "https://www.w3schools.com/js/"
+            "documentation": "https://www.w3schools.com/js/",
+            "iconUrl": "icons8-javascript-100.png"
+
       },
       {
             "name": "C Language",
             "description": "C Language is a structure-oriented, middle-level programming language mostly used to develop low-level applications.C Language is used to develop systems applications that are integrated into operating systems such as Windows, UNIX and Linux, as well as embedded softwares. Applications include graphics packages, word processors, spreadsheets, operating system development, database systems, compilers and assemblers, network drivers and interpreters.",
             "developedBy": "Dennis Ritchie",
             "firstAppeared": "1972",
-            "documentation": "https://www.tutorialspoint.com/cprogramming/index.htm"
+            "documentation": "https://www.tutorialspoint.com/cprogramming/index.htm",
+            "iconUrl": "icons8-c-programming-100.png"
+
       },
       {
             "name": "C++",
             "description": "C++ is a general purpose, object-oriented, middle-level programming language and is an extension of C language, which makes it possible to code C++ in a “C style”. In some situations, coding can be done in either format, making C++ an example of a hybrid language.The C++ language is used to create computer programs and packaged software, such as games, office applications, graphics and video editors and operating systems.",
             "developedBy": "Bjarne Stroustrup",
             "firstAppeared": "1985",
-            "documentation": "https://www.w3schools.com/cpp/"
+            "documentation": "https://www.w3schools.com/cpp/",
+            "iconUrl": "icons8-c++-100.png"
+
       },
       {
             "name": "C#",
             "description": "Pronounced C-sharp (not C-hashtag), C# is a multi-paradigm programming language that features strong typing, imperative, declarative, functional, generic, object-oriented and component-oriented disciplines.C# helps developers create XML web services and Microsoft .NET-connected applications for Windows operating systems and the internet",
             "developedBy": "Anders Hejlsberg",
             "firstAppeared": "2000",
-            "documentation": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+            "documentation": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+            "iconUrl": "icons8-c-sharp-logo-100.png"
+
       },
       {
             "name": "PHP",
             "description": "PHP is an open-source scripting language designed for creating dynamic web pages that effectively work with databases. It is also used as a general-purpose programming language. PHP is primarily used alongside dynamic data-heavy websites to collect form data. It's also used in app development to generate dynamic page content.",
             "developedBy": "Rasmus Lerdorf",
             "firstAppeared": "June 8, 1995",
-            "documentation": "https://www.w3schools.com/php/"
+            "documentation": "https://www.w3schools.com/php/",
+            "iconUrl": "icons8-php-logo-100.png"
+
       },
       {
             "name": "Objective C",
             "description": "Objective-C is a simple, general-purpose and object-oriented language. It uses a system of message passing borrowed from the language Smalltalk; when an object in Objective-C is sent a message, it can choose to ignore or forward to another object, rather than return a value. Objective-C is primarily used by developers to create apps for iOS and OS X.",
             "developedBy": "Tom Love and Brad Cox",
             "firstAppeared": "1984",
-            "documentation": "https://www.tutorialspoint.com/objective_c/index.htm"
+            "documentation": "https://www.tutorialspoint.com/objective_c/index.htm",
+            "iconUrl": "onbect-c.png"
+
       },
       {
             "name": "SQL",
             "description": "SQL is a database query language (not a development language) that allows for adding, accessing and managing content in a database. It is the language that allows programmers to perform the common acronym CRUD (Create; Read; Update; Delete) within a database. SQL interacts with the backend database of web application. It is the “de facto standard” database language, always used in conjunction with another programming language. SQL programs are implemented as a way for businesses and organizations to access and manipulate information stored in their databases.",
             "developedBy": "Donald D. Chamberlin Raymond F. Boyce",
             "firstAppeared": "1974",
-            "documentation": "https://www.w3schools.com/sql"
+            "documentation": "https://www.w3schools.com/sql",
+            "iconUrl": "icons8-sql-100.png"
+
       },
       {
             "name": "Swift",
             "description": "Swift is Apple’s newest open-source, multi-paradigm programming language for iOS and OS X apps. Swift integrates Objective-C’s named parameters and object-oriented model, while including an advanced compiler, debugger and framework infrastructure. Swift is primarily used by developers to create apps for iOS and OS X.",
             "developedBy": "Chris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, and Apple Inc",
             "firstAppeared": "June 2, 2014",
-            "documentation": "https://www.swift.org/documentation/"
+            "documentation": "https://www.swift.org/documentation/",
+            "iconUrl": "icons8-swift-100.png"
+
       },
       {
             "name": "HTML",
             "description": "HTML is the standard markup language used to create web pages; it ensures proper formatting of text and images (using tags) so that Internet browsers can display them in the ways they were intended to look. HTML is used to create electronic documents (pages) displayed online. Visit any page and you will see an example of HTML in action.",
             "developedBy": "WHATWG",
             "firstAppeared": "1993",
-            "documentation": "https://www.w3schools.com/html/"
+            "documentation": "https://www.w3schools.com/html/",
+            "iconUrl": "icons8-html-5-100.png"
+
       },
       {
             "name": "Dart",
             "description": "Dart is an open-source general-purpose programming language. It is originally developed by Google and later approved as a standard by ECMA. Dart is a new programming language meant for the server as well as the browser. Introduced by Google, the Dart SDK ships with its compiler – the Dart VM. The SDK also includes a utility -dart2js, a transpiler that generates JavaScript equivalent of a Dart Script.",
             "developedBy": "Lars Bak and Kasper Lund",
             "firstAppeared": "October 10, 2011",
-            "documentation": "https://dart.dev/guides"
+            "documentation": "https://dart.dev/guides",
+            "iconUrl": "icons8-dart-100.png"
+
       },
       {
             "name": "Kotlin",
             "description": "Kotlin is a statically typed, general-purpose programming language developed by JetBrains, that has built world-class IDEs like IntelliJ IDEA, PhpStorm, Appcode, etc. It was first introduced by JetBrains in 2011 and is a new language for the JVM. Kotlin is an object-oriented language, and a “better language” than Java, but still be fully interoperable with Java code.",
             "developedBy": "JetBrains",
             "firstAppeared": "July 22, 2011",
-            "documentation": "https://kotlinlang.org/docs/home.html"
+            "documentation": "https://kotlinlang.org/docs/home.html",
+            "iconUrl": "icons8-kotlin-100.png"
+
+      },
+      {
+            "name": "Node Js",
+            "description": "Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework and it’s not a programming language. Most people are confused and understand it’s a framework or a programming language. We often use Node.js for building back-end services like APIs like Web App or Mobile App. It’s used in production by large companies such as Paypal, Uber, Netflix, Walmart, and so on.",
+            "developedBy": "Ryan Dahl",
+            "firstAppeared": "May 27, 2009",
+            "documentation": "https://nodejs.org/en/docs/",
+            "iconUrl": "icons8-nodejs-100.png"
+
       }
 ]

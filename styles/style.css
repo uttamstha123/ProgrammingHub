@@ -29,7 +29,6 @@ a {
 
 .search-container input {
   min-width: 50%;
-  max-width: 80%;
   padding: 1rem 2rem;
   border: none;
   outline: none;
@@ -47,7 +46,7 @@ a {
    * Just for observation
 */
 .flex-container {
-  height: 25rem;
+  height: 65vh;
   width: 85%;
   margin: 0 auto;
   display: flex;
@@ -89,6 +88,26 @@ a {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 960px) {
+  * {
+    font-size: 14px;
+  }
+  .flex-container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 12px;
+  }
+  .search-container input {
+    min-width: 90%;
+    margin: 0 auto;
+  }
+  .flex-container {
+    justify-content: center;
+  }
+}
 .flex-item .logo {
   height: 12em;
   width: 12em;
@@ -99,6 +118,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .flex-item .logo img {
   width: 100%;
 }
