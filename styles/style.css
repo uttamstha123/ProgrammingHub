@@ -102,9 +102,41 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 .flex-item .logo img {
   width: 100%;
+}
+
+.flex-item:hover img {
+  /* border-bottom: 1px solid var(--white-text-100); */
+  animation-name: Giggle;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-duration: 0.25s;
+}
+.flex-item:hover .name{
+  color: #2e5c99;
+}
+@keyframes Giggle {
+  0% {
+    transform: rotateZ(0deg) scale(1.05);
+  }
+
+  25% {
+    transform: rotateZ(5deg) scale(1.1);
+  }
+
+  50% {
+    transform: rotateZ(0deg) scale(1.1);
+  }
+
+  75% {
+    transform: rotateZ(-5deg) scale(1.05);
+  }
+
+  100% {
+    transform: rotateZ(0deg) scale(1);
+  }
 }
 .flex-item .name {
   color: #333;
